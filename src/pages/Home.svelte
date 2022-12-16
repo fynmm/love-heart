@@ -7,7 +7,7 @@
   let imageSrc: string = "/close.jpg";
 
   // 存放 name 的变量
-  let yourName: string = "";
+  let yourName: string = "婷宝";
 
   // 设置 isDisabled 的值，控制是否展示 Heart
   let isShowLove: string = "";
@@ -43,6 +43,7 @@
           type="text"
           name={yourName}
           id="name"
+          disabled
           required
           placeholder="你的名字"
           bind:value={yourName}
@@ -65,7 +66,7 @@
 {:else if isShowLove === "love1"}
   <Love />
 {:else}
-  <Layout say={"你是 口中情 眼中喜 心中爱 意中人"}>
+  <Layout say={"😍你"}>
     <div class="text-center">
       <Heart name={yourName} />
     </div>
