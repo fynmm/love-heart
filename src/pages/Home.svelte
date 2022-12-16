@@ -46,7 +46,7 @@
           disabled
           required
           placeholder="你的名字"
-          bind:value={yourName}
+          value="婷宝"
           class="border-b bg-gray-100 h-9 p-2 w-32 rounded-md"
         />
       </form>
@@ -66,7 +66,7 @@
 {:else if isShowLove === "love1"}
   <Love />
 {:else}
-  <Layout say={"😍你"}>
+  <Layout say={"😍爱你"}>
     <div class="text-center">
       <Heart name={yourName} />
     </div>

@@ -1,5 +1,4 @@
 <script lang="ts">
-  export let name: string = "林黛玉";
   setTimeout(() => {
     var settings = {
       particles: {
@@ -250,9 +249,7 @@
 
 <section>
   <!-- pt-72  -->
-  <p class="font-mono transform translate-y-72" style="font-size: 30px">
-    {name}
-  </p>
+  <p class="font-mono transform translate-y-72" style="font-size: 30px">婷宝</p>
   <div>
     <canvas class="min-h-screen transform -translate-y-48" id="pinkboard" />
   </div>
